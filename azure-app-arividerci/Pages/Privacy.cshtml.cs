@@ -14,6 +14,7 @@ namespace azure_app_arividerci.Pages
 
         public void OnGet()
         {
+            throw new Exception();
         }
     }
 }

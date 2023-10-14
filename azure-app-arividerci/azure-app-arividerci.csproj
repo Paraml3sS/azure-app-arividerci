@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_arividerci</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/6c6aaa77-a56c-4ae1-a2b0-31c64bea2574/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-webapp-arividerchi-github</ApplicationInsightsResourceId>
+    <UserSecretsId>c3bdaefc-098d-48f5-ab7a-9607441e08ea</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
