@@ -5,6 +5,16 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-app-arividerci", "azure-app-arividerci\azure-app-arividerci.csproj", "{3A369C46-8BA7-4743-8D83-9D9D0B82D584}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.AzureCosmosDb.Demo", "Blazor.AzureCosmosDb.Demo\Blazor.AzureCosmosDb.Demo.csproj", "{2D093717-3869-4B93-B46D-800C54156499}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC.StorageAccount.Demo", "MVC.StorageAccount.Demo\MVC.StorageAccount.Demo.csproj", "{AB0518D9-2200-4541-ADB7-389D4A6EA3A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusSender.Demo", "Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{5ED02F40-9EC0-4419-B5EC-72EA9149292D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusReceiver.Demo", "Console.ServiceBusReceiver.Demo\Console.ServiceBusReceiver.Demo.csproj", "{33297773-CC5B-4242-8B7E-328B5F3FC370}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-course-functions", "azure-course-functions\azure-course-functions.csproj", "{CF21B1CF-D362-4177-A517-C288741EF900}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{3A369C46-8BA7-4743-8D83-9D9D0B82D584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A369C46-8BA7-4743-8D83-9D9D0B82D584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A369C46-8BA7-4743-8D83-9D9D0B82D584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D093717-3869-4B93-B46D-800C54156499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D093717-3869-4B93-B46D-800C54156499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D093717-3869-4B93-B46D-800C54156499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D093717-3869-4B93-B46D-800C54156499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0518D9-2200-4541-ADB7-389D4A6EA3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0518D9-2200-4541-ADB7-389D4A6EA3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0518D9-2200-4541-ADB7-389D4A6EA3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0518D9-2200-4541-ADB7-389D4A6EA3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED02F40-9EC0-4419-B5EC-72EA9149292D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED02F40-9EC0-4419-B5EC-72EA9149292D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED02F40-9EC0-4419-B5EC-72EA9149292D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED02F40-9EC0-4419-B5EC-72EA9149292D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33297773-CC5B-4242-8B7E-328B5F3FC370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33297773-CC5B-4242-8B7E-328B5F3FC370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33297773-CC5B-4242-8B7E-328B5F3FC370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33297773-CC5B-4242-8B7E-328B5F3FC370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF21B1CF-D362-4177-A517-C288741EF900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF21B1CF-D362-4177-A517-C288741EF900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF21B1CF-D362-4177-A517-C288741EF900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF21B1CF-D362-4177-A517-C288741EF900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
